@@ -36,8 +36,8 @@ class _HomePageState extends State<HomePage> {
           var item = receiver[index] as Map;
           var nameAtIndex = item['title'];
 
-          return Card(
-            
+          return const ListTile(
+            title: Text('Sample Text'),
           );
         }),
       ),
